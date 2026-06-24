@@ -1,0 +1,52 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Streamlit ----
+.streamlit/secrets.toml
+
+# ---- Jupyter / notebooks ----
+.ipynb_checkpoints/
+
+# ---- Caches & build artifacts ----
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+
+# ---- ML / model artifacts ----
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.model
+
+# ---- Data ----
+# Dataset is downloaded automatically from Kaggle on first run (kagglehub)
+# and cached locally, so it does not need to be committed.
+# Comment the line below if you prefer to commit the dataset for a more
+# reproducible deployment (e.g. if Kaggle access fails on the host).
+data/dataset.csv
+kagglehub/
+*.zip
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
